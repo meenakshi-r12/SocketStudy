@@ -86,5 +86,8 @@ print(s.getsockname())
 print(s.recv(1024).decode()) 
 s.send("acknowledgement recived from the server".encode())
 ```
+## Output:
+![Screenshot (79)](https://github.com/user-attachments/assets/8ae3c425-b1f9-42d9-9794-0b61f8126810)
+
 ## Result:
 Thus the study of Socket Programming Completed Successfully
