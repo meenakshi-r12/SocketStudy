@@ -55,7 +55,7 @@ Socket programming finds applications in various domains, including web developm
 
 ## Program:
 CLIENT:
-
+```
  import socket
  from datetime import datetime
  
@@ -76,14 +76,15 @@ if ack:
     print(ack)
  
 c.close()
-
+```
 SERVER:
-
+```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
 print(s.getsockname()) 
 print(s.recv(1024).decode()) 
 s.send("acknowledgement recived from the server".encode())
+```
 ## Result:
 Thus the study of Socket Programming Completed Successfully
